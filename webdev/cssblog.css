@@ -1,25 +1,61 @@
 header{
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  position: sticky;
+  top: 0%;
+  
+  width: 100%;
 }
+
 header p{
   background-color: red;
   font-size: xx-large;
   color: black;
   text-align: center;
+  
 }
+
 header button{
   background-color: blue;
   color: white;
+  padding: 20px;
+  
 } 
 
 #jumpMenu{
+  
   background-color: gold;
   position: fixed;
   top: 0;
   left: 0;
   width: 150px;
   text-align: center;
-  float: left;
+  height: 100%;
+
+}
+
+#thanks{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: paleturquoise;
+  padding: 20px;
+}
+
+#container{
+  display: flex;
+  background-color:cornflowerblue;
+}
+article{
+  width: 300px;
   
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
