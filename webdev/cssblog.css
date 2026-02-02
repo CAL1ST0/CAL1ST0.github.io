@@ -1,16 +1,19 @@
 header{
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  float:left;
   position: sticky;
   top: 0;
   left: 0;
-  width: 85%;
-  
+  width: 100%;
+  z-index: 100;
+}
+
+body{
+  display: flex;
 }
 
 main{
-  width: 100vw;
+  width: 90%;
 }
 
 header p{
@@ -42,10 +45,8 @@ nav{
 
 
 h1{
-  float:left;
   width: 80%;
   position: relative;
-  margin-left: 5px;
 }
 
 
@@ -56,9 +57,9 @@ h1{
   position: sticky;
   top: 0;
   left: 0;
-  width: 10%;
+  width: 15%;
   text-align: center;
-  float: left;
+  
   
 }
 #jumpMenu a{
@@ -80,13 +81,12 @@ h1{
 }
 
 #container{
-  margin: 10px ;
   display: flex;
   background-color:cornflowerblue;
-  position: relative;
-  float: left;
-  width: 85%;
-  overflow: hidden;
+  
+  
+  width: 100%;
+  
 }
 article{
   width: 300px;
@@ -94,12 +94,11 @@ article{
 }
 
 footer{
-  float: left;
   background-color: black;
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
-  width: 80%;
-  margin: auto;
+  
+  
 }
