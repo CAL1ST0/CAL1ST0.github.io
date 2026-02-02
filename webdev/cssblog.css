@@ -1,39 +1,75 @@
 header{
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  float: right;
+  float:left;
   position: sticky;
-  top: 0%;
+  top: 0;
+  left: 0;
+  width: 85%;
   
-  width: 100%;
+}
+
+main{
+  width: 100vw;
 }
 
 header p{
+  display: inline-block;
   background-color: red;
   font-size: xx-large;
   color: black;
   text-align: center;
-  
+  width: 100%;
 }
 
 header button{
   background-color: blue;
   color: white;
   padding: 20px;
+  float: left;
+  width: 20%;
   
 } 
 
-#jumpMenu{
+header nav{
+  display: flex;
+  justify-content: space-around;
+}
+nav{
   
+  width: 100%;
+}
+
+
+h1{
+  float:left;
+  width: 80%;
+  position: relative;
+  margin-left: 5px;
+}
+
+
+#jumpMenu{
+  display: grid;
+  height: 100vh;
   background-color: gold;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-  width: 150px;
+  width: 10%;
   text-align: center;
-  height: 100%;
-
+  float: left;
+  
 }
+#jumpMenu a{
+  width: 100%;
+  float: left;
+  clear: both;
+  
+}
+
+
+
 
 #thanks{
   position: fixed;
@@ -44,18 +80,26 @@ header button{
 }
 
 #container{
+  margin: 10px ;
   display: flex;
   background-color:cornflowerblue;
+  position: relative;
+  float: left;
+  width: 85%;
+  overflow: hidden;
 }
 article{
   width: 300px;
-  
+  padding: 5px;
 }
 
 footer{
+  float: left;
   background-color: black;
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+  width: 80%;
+  margin: auto;
 }
