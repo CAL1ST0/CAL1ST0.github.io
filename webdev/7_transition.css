@@ -1,0 +1,37 @@
+body{
+  display: flex;
+}
+
+#menuItems{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 10%;
+}
+main{
+  width: 90%;
+}
+header{
+  background-color: red;
+  font-size: xx-large;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+button{
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: x-large;
+}
+
+#thanks{
+  background-color: lightblue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
