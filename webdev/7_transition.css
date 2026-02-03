@@ -4,34 +4,115 @@ body{
 
 #menuItems{
   background-color: black;
-  color: white;
   text-align: center;
   width: 10%;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+
 main{
   width: 90%;
 }
+
 header{
   background-color: red;
-  font-size: xx-large;
+  font-size: 36px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
+  padding: 15px;
 }
 
 button{
   background-color: blue;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  text-align: center;
   width: 100%;
   font-size: x-large;
+  color: white;
+
+  padding: 10px;
+}
+
+button:hover{
+  background-color: darkgoldenrod;
+}
+
+#recentArticles:hover + #jumpMenu{
+  display: block;
+}
+
+
+#jumpMenu{
+  background-color: goldenrod;
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#jumpMenu:hover{
+  display: block;
+  width: 100%;
+}
+
+li:hover{
+  background-color: blue;
+}
+
+li:hover a {
+  color: black;
+}
+
+h1{
+  text-align: center;
+  font-size: 36px;
+}
+
+#container{
+  display: flex;
+  width: 100%;
+}
+
+article{
+  color:lightgray;
+  padding: 10px;
+  
+}
+
+article  p::first-letter{
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+article p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article:hover{
+  color: black;
+
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+article p a::after{
+  content:url(csspic/arrow.png);
 }
 
 #thanks{
   background-color: lightblue;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   padding: 20px;
+  font-size: x-large;
+  border: 1px solid black;
+}
+
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
 }
