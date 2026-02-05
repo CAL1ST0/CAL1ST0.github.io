@@ -3,16 +3,67 @@ h1{
   text-align: center;
 }
 
-h2{
-  font-size: 25px;
-}
-
 #header{
   display: flex;
   justify-content: space-around;
 }
-
-#label::first-letter{
-  font-size: 35px;
+#label{
+  font-size: 25px;
 }
+
+
+@media (min-width: 600px){
+  body{
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #label::first-letter{
+    font-size: 35px;
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section{
+    background-color: white;
+    padding: 20px;
+    width: 25%;
+    border: 10px black;
+    border-style: solid;
+    margin: 10px;
+    font-size: 16px;
+    transition: all 1s;
+  }
+
+  .section:hover{
+    padding: 30px;
+    margin: 20px;
+  }
+}
+@media(max-width: 600px){
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:mediumseagreen;
+  }
+
+  .section{
+    padding-bottom: 10px;
+  }
+
+
+}
+
+
+
+
+
+ul{
+  margin: 10px;
+  padding: 0px;
+}
+
 
