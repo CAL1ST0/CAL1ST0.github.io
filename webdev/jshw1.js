@@ -50,11 +50,8 @@ function addMultiplesToArray(){
 }
 
 function printCarObject(){
-  let arr = [];
-  arr[0] = document.getElementById("carType").innerHTML;
-  arr[1] = document.getElementById("carMPG").innerHTML;
-  arr[2] = document.getElementById("carColor").innerHTML;
-  console.log(arr);
+  let carObject = {cType: document.getElementById("carType").innerHTML, cMPG: document.getElementById("carMPG").innerHTML, cColor: document.getElementById("carColor").innerHTML};
+  console.log(carObject);
 }
 
 function loadCar(x){
