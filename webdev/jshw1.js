@@ -49,3 +49,34 @@ function addMultiplesToArray(){
   console.log(arr); 
 }
 
+function printCarObject(){
+  let arr = [];
+  arr[0] = document.getElementById("carType").innerHTML;
+  arr[1] = document.getElementById("carMPG").innerHTML;
+  arr[2] = document.getElementById("carColor").innerHTML;
+  console.log(arr);
+}
+
+function loadCar(x){
+  switch(x){
+    case 1:
+      document.getElementById("carType").value = carObject1.cType;
+      document.getElementById("carMPG").value = carObject1.cMPG;
+      document.getElementById("carColor").value = carObject1.cColor;
+      break;
+
+    case 2:
+      document.getElementById("carType").value = carObject2.cType;
+      document.getElementById("carMPG").value = carObject2.cMPG;
+      document.getElementById("carColor").value = carObject2.cColor;
+      break;
+
+    case 3:
+      document.getElementById("carType").value = carObject3.cType;
+      document.getElementById("carMPG").value = carObject3.cMPG;
+      document.getElementById("carColor").value = carObject3.cColor;
+      break;
+  }
+  
+}
+
