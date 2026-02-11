@@ -77,3 +77,18 @@ function loadCar(x){
   
 }
 
+function changeColor(x){
+  switch(x){
+    case 1:
+      document.getElementById("styleParagraph").style.color = 'red';
+      break;
+    
+    case 2:
+      document.getElementById("styleParagraph").style.color = 'green';
+      break;
+
+    case 3:
+      document.getElementById("styleParagraph").style.color = 'blue';
+      break;
+  }
+}
