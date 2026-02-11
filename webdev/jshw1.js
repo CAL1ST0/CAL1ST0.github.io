@@ -41,7 +41,7 @@ function addMultiplesToArray(){
   let counter = getCounterVal();
   let arr = [];
   let j = 5;
-  while(j<counter){
+  while(j<=counter){
     arr.unshift(j);
     j+=5;
   }
