@@ -53,7 +53,7 @@ select{
 input{
   width: 50%;
 }
-#find{
+#findButton{
   width: 15%;
 }
 
@@ -63,4 +63,16 @@ input{
   align-items: center;
   width: 100%;
 
+}
+
+#player{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#play{
+  width: 50%;
+  margin: 1%;
 }
