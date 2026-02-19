@@ -1,0 +1,66 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+
+div{
+  display:flex;
+  align-items: center;
+}
+
+#content{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 5%;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+select{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+#add{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 1%;
+}
+
+#entry{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+}
+
+input{
+  width: 50%;
+}
+#find{
+  width: 15%;
+}
+
+#IMAGE{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
