@@ -36,7 +36,6 @@ function parseObject(data){
   let sound = data.cries.latest;
 
   imgConst = image;
-  console.log(imgConst);
   //console.log(sound);
   //console.log(moves);
 
@@ -94,19 +93,21 @@ function removeImage(){
 }
 
 function removeSound(){
-  let source = document.getElementById("SOURCE");
-  source.parentNode.removeChild(source);
+  let audio = document.getElementById("audio");
+  audio.parentNode.removeChild(audio);
 }
 
 function loadSound(sound){
   let div = document.getElementById("player");
   div.style.display = "flex";
-  let audio = document.getElementById("audio");
+  let audio = document.createElement("audio");
+  audio.setAttribute("id","audio");
   audio.controls = true;
   let source = document.createElement("source");
   source.src = sound;
   source.setAttribute("id", "SOURCE");
   audio.appendChild(source);
+  div.appendChild(audio);
 }
 
 function addMoves(moves, select){
