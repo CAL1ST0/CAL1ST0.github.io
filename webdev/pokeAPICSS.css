@@ -6,6 +6,7 @@ main{
 div{
   display:flex;
   align-items: center;
+  justify-content: center;
 }
 
 #content{
@@ -75,4 +76,8 @@ input{
 #play{
   width: 50%;
   margin: 1%;
+}
+
+#team{
+  width: 100%;
 }
