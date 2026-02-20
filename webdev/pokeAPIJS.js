@@ -81,8 +81,8 @@ function addImage(image){
   let newImage = document.createElement("img");
   newImage.setAttribute("src", image);
   newImage.setAttribute("alt", "POKEMON");
-  newImage.setAttribute("width", "500");
-  newImage.setAttribute("height", "500");
+  newImage.setAttribute("width", "200");
+  newImage.setAttribute("height", "200");
   newImage.setAttribute("id", "pokeIMG");
   document.getElementById("IMAGE").appendChild(newImage);
   
@@ -127,11 +127,11 @@ function removeMoves(){
   let select3 = document.getElementById("select3");
   let select4 = document.getElementById("select4");
 
-  let option = document.getElementsByName("option");
-  console.log(option);
-  for(item of option){
-    option.removeChild(item);
-  }
+  select1.innerHTML = "";
+  select2.innerHTML = "";
+  select3.innerHTML = "";
+  select4.innerHTML = "";
+
 
 }
 
@@ -141,8 +141,9 @@ function addToTeam(){
  
 
   let div = document.createElement("div");
-  div.setAttribute("width", "100%");
-
+  
+  div.setAttribute("id", "member");
+  div.setAttribute("margin", "1%");
   div.appendChild(img);
   div.appendChild(list);
 

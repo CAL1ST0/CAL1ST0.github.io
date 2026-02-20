@@ -1,6 +1,7 @@
 main{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 div{
@@ -15,11 +16,15 @@ div{
   justify-content: space-around;
   flex-wrap: wrap;
   width: 60%;
-  margin: 5%;
+  margin: 1%;
+  background-color:lightgoldenrodyellow;
+  border-radius: 8px;
+  padding: 1%;
 }
 
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: salmon;
 }
 
 h1{
@@ -29,11 +34,15 @@ h1{
 }
 
 select{
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 5px;
+  border-radius: 4px;
+  padding: 1%;
+  margin: 1%;
+  background-color: white;
+  border: 2px solid black;
 }
 
 #add{
@@ -42,6 +51,7 @@ select{
   justify-content: center;
   width: 50%;
   margin: 1%;
+  padding: 1%;
 }
 
 #entry{
@@ -49,13 +59,17 @@ select{
   display: flex;
   justify-content: center;
   margin: 1%;
+  padding: 1%;
 }
 
 input{
   width: 50%;
+  padding: 1%;
 }
 #findButton{
   width: 15%;
+  margin: 1%;
+  padding: 1%;
 }
 
 #IMAGE{
@@ -80,4 +94,31 @@ input{
 
 #team{
   width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#member{
+  border: 2px solid black;
+  margin: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 8px;
+  background-color: white;
+}
+
+button{
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+input{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
 }
